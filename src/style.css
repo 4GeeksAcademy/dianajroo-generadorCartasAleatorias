@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(4, 158, 4);
+}
+.carta {
+  background-color: white;
+  width: 250px;
+  height: 350px;
+
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+}
+.simboloSuperior {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: -30px;
+  font-size: 80px;
+  color: red;
+  margin-right: 70px;
+}
+.numero {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  font-size: 90px;
+  margin-left: -40px;
+}
+.simboloInferior {
+  font-size: 80px;
+  color: red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: -30px;
+  margin-left: 30px;
+}
