@@ -4,37 +4,32 @@ body {
   background-color: rgb(4, 158, 4);
 }
 .carta {
+  text-align: center;
   background-color: white;
   width: 250px;
   height: 350px;
-
   margin: auto;
   border-radius: 10px;
-  padding: 20px;
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 90px;
+  border: 1px solid black;
 }
-.simboloSuperior {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: -30px;
+.simboloSup {
   font-size: 80px;
-  color: red;
-  margin-right: 70px;
+  padding-left: 10px;
+  padding-top: 5px;
 }
+
+.simboloInfe {
+  font-size: 80px;
+  display: flex;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
 .numero {
   display: flex;
-  justify-content: center;
-  padding-top: 90px;
-  font-size: 90px;
-  margin-left: -40px;
-}
-.simboloInferior {
-  font-size: 80px;
-  color: red;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-bottom: -30px;
-  margin-left: 30px;
+  align-items: center;
 }
